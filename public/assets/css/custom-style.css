@@ -1,0 +1,17 @@
+.card-header{
+    background-color: #52535B;
+    color: white;
+}
+.container-custom{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.text-light-200{
+    color: #91919D;
+}
+  

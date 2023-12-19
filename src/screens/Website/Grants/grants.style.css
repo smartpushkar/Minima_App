@@ -1,0 +1,70 @@
+
+.left-line {
+  position: relative;
+}
+
+.left-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px; /* Adjust the distance from the text */
+  width: 2px; /* Adjust the width of the line */
+  height: 100%;
+  background-color: #FF691D;
+}
+/* Styles for desktop screens (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+    .text-grants-heading{
+        text-align: center;
+        font-size: 62px;
+    }
+    .grants-bg-style {
+        background: url("../../../../public/assets/images/grants-header-bg.svg") no-repeat;
+        background-position: center 60px;
+        padding-top: 200px;
+        padding-bottom: 212px;
+        background-color: #4A4BFF;
+        border-bottom-left-radius: 50% 40px;
+        border-bottom-right-radius: 50% 40px;
+      }
+      .header-btn1{
+        width: 50%;
+        text-align: end;
+      }
+      .header-btn2{
+        width: 50%;
+      }
+      .coin-section-des{
+        margin-left: 170px;
+    margin-right: 170px;
+      }
+}
+  /* Styles for mobile screens (max-width: 767px) */
+  @media screen and (max-width: 767px) {
+    .text-grants-heading{
+        text-align: center;
+        font-size: 38px;
+    }
+    .grants-bg-style {
+        background: url("../../../../public/assets/images/grants-header-bg.svg") no-repeat;
+        background-position: center 60px;
+        padding-top: 200px;
+        padding-bottom: 170px;
+        background-color: #4A4BFF;
+        border-bottom-left-radius: 50% 20px;
+        border-bottom-right-radius: 50% 20px;
+      }
+      .header-btn1{
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+      }
+      .header-btn2{
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+      }
+      .header-row{
+        padding-top: 40px;
+      }
+  }

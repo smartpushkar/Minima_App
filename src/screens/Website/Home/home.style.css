@@ -1,0 +1,115 @@
+.card-header{
+    background-color: #52535B;
+    color: white;
+}
+.container-custom{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+  
+
+/* Styles for desktop screens (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  .overflow-hidden{
+    padding-bottom: 130px;
+  }
+    .home-heading{
+        font-size: 56px;
+        padding-top: 160px;
+    }
+    .home-heading-btn1{
+        width: 100%;  
+    }
+    .home-heading2{
+        font-size: 32px;
+    }
+    .home-heading-dis1{
+        padding-right: 26px;
+    }
+    .home-heading-dis2{
+        margin-right: -140px;
+    }
+    .section1{
+        padding: 80px;
+    }
+  }
+  /* Default styles for larger screens */
+  @media (min-width: 768px) {
+    .col-xl-5-home {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .col-lg-6-home {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .home-img {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  /* Styles for mobile screens (max-width: 767px) */
+  @media screen and (max-width: 767px) {
+    .app-icon-section{
+        padding-top: 40px;
+    }
+    .home-heading{
+        padding-top: 160px;
+        font-size: 32px;
+    }
+    .home-heading-btn1{
+        width: 70%;
+    }
+    .btn-mt-1{
+        padding-top: 20px;
+    }
+    .home-heading2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .home-heading-dis2{
+        text-align: center;
+    }
+    .row.align-items-center {
+        flex-direction: column; /* Stack the columns vertically on small screens */
+      }
+    
+      .col-xl-5-home {
+        background: url("../../../../public/assets/images/home-template-image-mobile.svg") no-repeat;
+        background-position: center -60px; 
+        padding: 20px;
+      }
+      .home-img {
+        display: none; /* Hide the image in the second column */
+      }
+
+      .run-code-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    
+      .run-code-col-lg-2 {
+        flex: 0 0 50%;
+        text-align: center;
+      }
+    
+      .run-code-col-lg-2 img {
+        display: block;
+        margin: 0 auto;
+      }
+    
+      .run-code-col-lg-2 span {
+        display: block;
+      }
+  }
